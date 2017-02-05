@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dynamic Cards</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+        <link rel="stylesheet" href="cards.css">
+    </head>
+    <body class="container">
+        <div class="row">
+            <header class="col m12">
+                <h2>Create Your Own Cards!</h2>
+                <p>Just type what you would like your card to say in the box below</p>
+            </header>
+        </div>
+
+        <div class="row">
+            <div class="col m4"></div>
+            <div class="col m4" >
+                <input type="text" id="inputBox" placeholder="Type Your Text"><br>
+                <button class="btn waves-effect waves-light" id="submit">Submit</button>
+            </div>
+            <div class="col m4"></div>
+        </div>
+        <div class="row" id="outputCards">
+
+        </div>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="cards.js"></script>
+    </body>
+</html>
